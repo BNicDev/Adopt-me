@@ -1,0 +1,110 @@
+:root{
+    --first-color:#ececec;
+    --second-color:#9fd3c7;
+    --third-color:#385170;
+    --fourth-color:#142d4c;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: var(--fourth-color);
+}
+.logo{
+    background-image: url(/img/Adopt\ me\ logo.png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 1rem;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 75%;
+}
+ul{
+    list-style: none;
+    color: var(--first-color);
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+    width: 30px;
+    height: 25px;
+    
+}
+ul li:hover{
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.main-container{
+    height: 100%;
+    display: flex;
+}
+.first-section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/krista-mangulsone-9gz3wfHr65U-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.choose-pet{
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background: #385170;
+    width: 350px;
+    border-radius: 10px;
+}
+.title{
+    margin-top:10px;
+    padding-top: 5px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.pet-choice{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pet-choice label{
+    color: #ffffff;
+    font-weight: 500;
+}
+.pet-choice input{
+    height: 40px;
+    width:200px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.pet-choice button{
+    margin-top: 30px;
+    height: 40px;
+    width:200px;
+    border-radius: 10px; 
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--fourth-color);
+    cursor: pointer;
+}
+.pet-choice button:hover{
+    border: 1px solid #ffffff;
+}
