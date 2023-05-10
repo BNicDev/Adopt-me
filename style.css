@@ -3,6 +3,7 @@
     --second-color:#9fd3c7;
     --third-color:#385170;
     --fourth-color:#142d4c;
+    --fifth-color:#fdb44b; 
 }
 body{
     margin: 0;
@@ -107,4 +108,34 @@ ul li:hover{
 }
 .pet-choice button:hover{
     border: 1px solid #ffffff;
+    background-color: var(--third-color);
+}
+.second-section{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fifth-color);
+}
+.adopt-plan{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    margin-left: 240px;
+    height: 40px;
+    width:200px;
+    border-radius: 10px; 
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--fourth-color);
+    cursor: pointer;
+}
+.about:hover{
+    background-color:var(--fifth-color);
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
