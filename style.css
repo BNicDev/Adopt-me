@@ -27,7 +27,6 @@ nav{
 }
 .menu{
     display: flex;
-    width: 100%;
     position: absolute;
     left: 75%;
 }
@@ -89,7 +88,7 @@ ul li:hover{
 }
 .pet-choice input{
     height: 40px;
-    width:200px;
+   
     border-radius: 10px;
     border: none;
     text-align: center;
@@ -97,7 +96,7 @@ ul li:hover{
 .pet-choice button{
     margin-top: 30px;
     height: 40px;
-    width:200px;
+   
     border-radius: 10px; 
     border: none;
     color: white;
@@ -118,14 +117,20 @@ ul li:hover{
     background-color: var(--fifth-color);
 }
 .adopt-plan{
+    display: flex;
+    flex-direction: column;
     color: white;
     align-items: center;
     justify-content: center;
+    
+}
+.adopt-title{
+    margin-top: 5px;
 }
 .about{
-    margin-left: 240px;
+    margin-bottom: 10px;
     height: 40px;
-    width:200px;
+   
     border-radius: 10px; 
     border: none;
     color: white;
@@ -135,7 +140,41 @@ ul li:hover{
     cursor: pointer;
 }
 .about:hover{
-    background-color:var(--fifth-color);
     border: 1px solid #ffffff;
-    color: #ffffff;
+    background-color: var(--third-color);
+}
+.adopt-p{
+    margin-top: 5px;
+    
+}
+.buttons-section{
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px; 
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--fourth-color);
+    cursor: pointer;
+}
+.buttons button:hover{
+    border: 1px solid #ffffff;
+    background-color: var(--third-color);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
